@@ -1,12 +1,12 @@
-# AI Engineer Skill Matcher
+# Skill Matcher
 
-A modern Flask web application for matching user skills to AI Engineer requirements and displaying a match score.
+A simple Flask web application for matching user skills to AI Engineer requirements and displaying a match score.
 
 ## Features
 
 - User submits their name, email, and skills
 - Backend compares submitted skills against a set of AI engineering requirements (TensorFlow, Keras, PyTorch, LLM, RAG, scikit-learn)
-- Displays a visually appealing results card with match score
+- Display results card with match score
 - Clean, centered, and responsive UI with a green-themed color palette
 
 ## File Structure
@@ -19,7 +19,7 @@ A modern Flask web application for matching user skills to AI Engineer requireme
 | result.html  | Results display template                   |
 | base.css     | Core styles and layout                     |
 | form.css     | Form-specific styles                       |
-| result.css   | Result card and page styles                |
+| result.css   | Result card                                |
 
 ## Requirements
 
@@ -36,7 +36,7 @@ pip install Flask
 1. Clone or download the project files.
 2. In your terminal, run:
 ```bash
-puthon main.py
+python main.py
 ```
 3. Open your browser and visit `http://127.0.0.1:5000`.
 
