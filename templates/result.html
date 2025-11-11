@@ -1,0 +1,14 @@
+{% extends "base.html" %} {% block title %}Result Page{% endblock %} {% block
+content %}
+<div class="result-page">
+  <div class="result-container glass-card">
+    <h2 class="result-heading">Matching Results</h2>
+    <h2 class="user-info">Name: {{ name }}</h2>
+    <h2 class="user-info">Email: {{ email }}</h2>
+    <p class="result-text">Your match score is:</p>
+    <div class="score-box">{{ match_score }}%</div>
+    <br />
+    <a href="/" class="back-button">← Back to Form</a>
+  </div>
+</div>
+{% endblock %}
